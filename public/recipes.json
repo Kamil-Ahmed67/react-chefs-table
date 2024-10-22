@@ -1,0 +1,98 @@
+[
+  {
+    "recipe_id": 1,
+    "recipe_name": "Grilled Chicken with Basil",
+    "image": "https://i.ibb.co.com/P1Ds9J2/recipe-1.jpg",
+    "short_description": "A simple yet flavorful grilled chicken recipe with fresh basil and herbs.",
+    "ingredients": [
+      "550 g chicken",
+      "120 ml soy sauce",
+      "200 g basil leaf",
+      "400 g mushroom",
+      "2 cloves garlic",
+      "1 tbsp olive oil"
+    ],
+    "preparing_time": 30,
+    "calories": 320
+  },
+  {
+    "recipe_id": 2,
+    "recipe_name": "Spaghetti Carbonara",
+    "image": "https://i.ibb.co.com/2PfD7Fh/recipe-2.jpg",
+    "short_description": "Classic Italian pasta dish with creamy egg sauce and crispy pancetta.",
+    "ingredients": [
+      "200 g spaghetti",
+      "100 g pancetta",
+      "2 large eggs",
+      "50 g Parmesan cheese",
+      "2 cloves garlic",
+      "Salt and pepper to taste"
+    ],
+    "preparing_time": 25,
+    "calories": 450
+  },
+  {
+    "recipe_id": 3,
+    "recipe_name": "Vegetarian Stir-Fry",
+    "image": "https://i.ibb.co.com/TTNyzj4/recipe-3.jpg",
+    "short_description": "A quick and healthy stir-fry packed with fresh vegetables and tofu.",
+    "ingredients": [
+      "300 g tofu",
+      "200 g broccoli",
+      "150 g bell peppers",
+      "100 g carrots",
+      "50 ml soy sauce",
+      "2 tbsp sesame oil"
+    ],
+    "preparing_time": 20,
+    "calories": 270
+  },
+  {
+    "recipe_id": 4,
+    "recipe_name": "Beef Tacos",
+    "image": "https://i.ibb.co.com/fCcJ3S8/recipe-4.png",
+    "short_description": "Delicious beef tacos with a flavorful Mexican seasoning and fresh toppings.",
+    "ingredients": [
+      "400 g ground beef",
+      "100 g taco seasoning",
+      "150 g lettuce",
+      "100 g cheddar cheese",
+      "8 taco shells",
+      "Salsa and sour cream"
+    ],
+    "preparing_time": 35,
+    "calories": 380
+  },
+  {
+    "recipe_id": 5,
+    "recipe_name": "Margarita Pizza",
+    "image": "https://i.ibb.co.com/SvssjGs/recipe-5.jpg",
+    "short_description": "Classic Italian pizza with fresh mozzarella, tomatoes, and basil.",
+    "ingredients": [
+      "500 g pizza dough",
+      "200 g mozzarella cheese",
+      "100 g tomato sauce",
+      "50 g fresh basil leaves",
+      "1 tbsp olive oil",
+      "Salt to taste"
+    ],
+    "preparing_time": 40,
+    "calories": 500
+  },
+  {
+    "recipe_id": 6,
+    "recipe_name": "Chocolate Chip Cookies",
+    "image": "https://i.ibb.co.com/WVcFpg2/recipe-6.jpg",
+    "short_description": "Soft and chewy chocolate chip cookies, a timeless classic.",
+    "ingredients": [
+      "250 g flour",
+      "150 g butter",
+      "100 g sugar",
+      "200 g chocolate chips",
+      "1 large egg",
+      "1 tsp vanilla extract"
+    ],
+    "preparing_time": 25,
+    "calories": 450
+  }
+]
