@@ -6,6 +6,8 @@ import Sidebars from './components/Sidebars/Sidebars'
 function App() {
   const [recipeQueue, setRecipeQueue] = useState([])
   const [preparedRecipe,setPreparedRecipe]=useState([]);
+  const [totalTime,setTotalTime]=useState(0);
+  const [totalCalories,setTotalCalories]=useState(0);
   const addRecipeToQueue = recipe => {
     //console.log(recipe);
     const isExist = recipeQueue.find(
@@ -29,6 +31,10 @@ function App() {
    setRecipeQueue(updatedQueue);
    setPreparedRecipe([...preparedRecipe,deletedRecipe]);
   }
+  const calculateTimeAndCalories=(time,calories)=>{
+  setTotalTime(totalTime+time);
+  setTotalCalories(totalCalories+calories);
+  }
   return (
     <>
 
@@ -44,6 +50,9 @@ function App() {
          recipeQueue={recipeQueue}
          handleRemove={handleRemove}
           preparedRecipe={preparedRecipe}
+          calculateTimeAndCalories={calculateTimeAndCalories}
+          totalTime={totalTime}
+          totalCalories={totalCalories}
          ></Sidebars>
       </section>
 

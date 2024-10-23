@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 
-const Sidebar = ({ recipeQ, index,handleRemove }) => {
+const Sidebar = ({ recipeQ, index,handleRemove,calculateTimeAndCalories }) => {
     const {recipe_id, recipe_name, preparing_time, calories } = recipeQ;
     return (
         <tr className="hover">
@@ -10,7 +10,11 @@ const Sidebar = ({ recipeQ, index,handleRemove }) => {
             <td>{calories}</td>
             <td>
                 <button
-                onClick={()=>handleRemove(recipe_id)}
+                onClick={()=>{
+                    handleRemove(recipe_id)
+                    calculateTimeAndCalories(preparing_time, calories)
+                }
+                }
                     className=" bg-green-400 rounded-full px-2 md:px-4 py-1 md:py-2 my-2  text-gray-800 font-medium"
                 >
                     Preparing
@@ -28,7 +32,8 @@ Sidebar.propTypes = {
         calories: PropTypes.number.isRequired,
     }).isRequired,
     index: PropTypes.number.isRequired,
-    handleRemove:PropTypes.func.isRequired
+    handleRemove:PropTypes.func.isRequired,
+    calculateTimeAndCalories:PropTypes.func.isRequired
 };
 
 export default Sidebar;
